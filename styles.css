@@ -158,3 +158,9 @@ nav ul {
   #informacionPais p {
     margin-bottom: 5px;
   }
+  #informacionPais img {
+    float: right;
+    width: 350px;
+    height: auto;
+    margin-right: 300px;
+  }
