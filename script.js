@@ -98,4 +98,6 @@ function mostrarInformacion(pais) {
     
     return paises[pais];
   }
-  
+function cerrarPagina() {
+    window.close();
+  } 
