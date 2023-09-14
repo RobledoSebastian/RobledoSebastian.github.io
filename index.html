@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+  <header>
+    <style>
+        .centrar {text-align: center;}
+      </style>
+    <h1 class="centrar">América del Sur en 1936</h1>
+  </header>
+  
+  <nav id='menu'>
+    <ul>
+      <li><button class="button1" title="Argentina" onclick="mostrarInformacion('Argentina')">Argentina</button></li>
+      <li><button class="button2" title="Bolivia" onclick="mostrarInformacion('Bolivia')">Bolivia</button></li>
+      <li><button class="button3" title="Brasil" onclick="mostrarInformacion('Brasil')">Brasil</button></li>
+      <li><button class="button4" title="Chile" onclick="mostrarInformacion('Chile')">Chile</button></li>
+      <li><button class="button5" title="Colombia" onclick="mostrarInformacion('Colombia')">Colombia</button></li>
+      <li><button class="button6" title="Ecuador" onclick="mostrarInformacion('Ecuador')">Ecuador</button></li>
+      <li><button class="button7" title="Paraguay" onclick="mostrarInformacion('Paraguay')">Paraguay</button></li>
+      <li><button class="button8" title="Perú" onclick="mostrarInformacion('Perú')">Perú</button></li>
+      <li><button class="button9" title="Uruguay" onclick="mostrarInformacion('Uruguay')">Uruguay</button></li>
+      <li><button class="button10" title="Venezuela" onclick="mostrarInformacion('Venezuela')">Venezuela</button></li>
+    </ul>
+  </nav>
+  
+  <button class="buttonclose" onclick="cerrarPagina()">Cerrar página</button>
+
+  <script>
+  function cerrarPagina() {
+    window.close();
+  }
+  </script>
+
+  <main>
+    <div id="informacionPais"></div>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
